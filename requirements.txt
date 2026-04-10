@@ -6,3 +6,6 @@ scikit-learn
 imbalanced-learn
 bokeh
 jupyter
+fastapi
+uvicorn
+joblib

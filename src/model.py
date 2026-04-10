@@ -44,3 +44,7 @@ if __name__ == "__main__":
     print(f"Failure rate: {y.mean()*100:.2f}%")
     
     model, X_test, y_test = train_model(X, y)
+
+    import os
+model_path = os.path.join(os.path.dirname(__file__), "..", "model.pkl")
+model = joblib.load(model_path)
